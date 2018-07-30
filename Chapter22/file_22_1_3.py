@@ -10,4 +10,4 @@ if re.match(IS_NUMERIC, inp):
     else:
         print(x, "은/는 실수입니다.")
 else:
-    print("올바르지 않은 값입니다.")
+    print("숫자가 아닙니다.")

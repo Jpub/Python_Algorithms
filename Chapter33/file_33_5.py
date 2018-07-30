@@ -2,12 +2,11 @@ ROWS = 3
 COLUMNS = 4
 ELEMENTS = ROWS * COLUMNS
 
-a = [[None] * COLUMNS for i in range(ROWS)]
+a = [ [None] * COLUMNS for i in range(ROWS) ]
 
 for i in range(ROWS):
     for j in range(COLUMNS):
-        a[i][j] = int(input(str(i) + ", " + str(j) + \
-        " 요소의 값을 입력하여라: "))
+        a[i][j] = int(input(str(i) + ", " + str(j) + " 요소의 값을 입력하여라: "))
 
 b = [None] * ELEMENTS
 

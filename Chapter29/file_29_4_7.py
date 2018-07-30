@@ -14,4 +14,5 @@ guess = random.randrange(1, y + 1)           # 첫 번째 추측값을 1과 입�
 
 while abs(guess * guess - y) > ACCURACY:     # 충분히 가까운가?
     guess = (guess + y / guess) / 2          # 그렇지 않으면 새로운 추측값을 생성!
+
 print(guess)

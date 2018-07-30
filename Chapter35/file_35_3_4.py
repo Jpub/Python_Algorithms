@@ -19,7 +19,7 @@ for i in range(1, STUDENTS):    # maximum = max(grades)
     if grades[i] > maximum: 
         maximum = grades[i] 
 
-print("가장 높은 점수를 가진 학생: ")
+print("가장 높은 점수를 가진 학생:")
 for i in range(STUDENTS):
     if grades[i] == maximum:
         print(names[i])

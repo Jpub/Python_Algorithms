@@ -1,7 +1,7 @@
 total = 0
 
 i = 1
-while i <= 10:
+while i <= 4:
     a = float(input())
     total = total + a
 

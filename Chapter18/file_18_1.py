@@ -1,4 +1,4 @@
-name = input("이름이 무엇인가요? ")
+name = input("이름이 무엇인가요?")
 
 if name == "홍길동":
     print("나의 삼촌이군요!")

@@ -9,4 +9,4 @@ for a in s:
         break
 
 if found == True:
-    print("문자", letter, "를 찾았습니다.")
+    print("문자 ", letter, "를 찾았습니다.")

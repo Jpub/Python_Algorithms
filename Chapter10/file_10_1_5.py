@@ -1,4 +1,4 @@
-fahrenheit = float(input("화씨 온도를 입력하시오: "))
+fahrenheit = float(input("화씨 온도를 입력하여라: "))
 
 kelvin = (fahrenheit + 459.67) / 1.8
 

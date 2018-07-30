@@ -5,4 +5,4 @@ maximum = a
 if b > a:
     maximum = b
 
-print("큰 값:", maximum)
+print("큰 값: ", maximum)

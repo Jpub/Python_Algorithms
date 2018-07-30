@@ -6,4 +6,4 @@ if b > a:
 else:
     maximum = a
 
-print("큰 값:", maximum)
+print("큰 값: ", maximum)

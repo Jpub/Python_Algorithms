@@ -9,7 +9,7 @@ choice = int(input("메뉴를 선택하여라: "))
 if choice < 1 or choice > 2:
     print("잘못된 선택입니다.")
 else:
-    inp = input("양을 입력하여라: ")
+    inp = input("연료량을 입력하여라: ")
     if re.match(IS_NUMERIC, inp):
         quantity = float(inp)
         if choice == 1:
@@ -19,4 +19,4 @@ else:
             result = quantity / COEFFICIENT
             print(quantity, "리터 =", result, "갤런")
     else:
-        print("잘못된 양입니다.")
+        print("숫자가 아닙니다.")

@@ -1,7 +1,7 @@
 def total(a, b):
     return a + b
 
-# 메인 코드가 여기서 시작된다.
+# 메인 코드
 num1 = float(input())
 num2 = float(input())
 

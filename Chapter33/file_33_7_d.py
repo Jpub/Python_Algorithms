@@ -12,9 +12,9 @@ for element in a:
 
 print()
 b = [ [4, 6, 8], \
-[3, 11, 9], \
-[2, 9, 1]
-]
+      [3, 11, 9], \
+      [2, 9, 1]
+    ]
 
 # 마지막 열 정렬
 b[2].sort()
@@ -22,8 +22,8 @@ b[2].sort()
 for row in b:
     for element in row:
         print(element, end = " ") # 출력: 4 6 8
-                                  #      3 11 9
-                                  #      1 2 9
+                                  #       3 11 9
+                                  #       1 2 9
 print() 
 
 c = ["Hermes", "Apollo", "Dionysus"]

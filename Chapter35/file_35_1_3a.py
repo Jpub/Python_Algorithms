@@ -9,6 +9,7 @@ for i in range(ELEMENTS_OF_A):
     a[i] = float(input())
 for i in range(ELEMENTS_OF_B):
     b[i] = float(input())
+    
 # 리스트 new_arr를 생성한다.
 new_arr = [None] * ELEMENTS_OF_NEW
 for i in range(ELEMENTS_OF_A):

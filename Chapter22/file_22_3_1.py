@@ -19,4 +19,4 @@ if w3 > maximum:
     m_name = n3    # maximum보다 w3가 크므로 n3값을 m_name에 저장
 
 print("몸무게가 가장 많이 나가는 사람:", m_name)
-print("이 사람의 몸무게:", maximum)
+print("몸무게:", maximum)

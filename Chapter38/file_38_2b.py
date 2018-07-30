@@ -3,7 +3,7 @@ def display_line(length):
         print("-", end = "")
     print()
 
-# 메인 코드가 여기서 시작된다.
+# 메인 코드
 print("안녕하세요!")
 display_line(12)
 print("어떻게 지내세요?")

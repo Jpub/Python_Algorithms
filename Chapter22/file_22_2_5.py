@@ -16,7 +16,7 @@ if a != 0:
             x = -b / (2 * a)
             print("하나의 중근:", x)
     else:
-        print("복소수 근")
+        print("허근")
 else:
     if b != 0:
         x = -c / b

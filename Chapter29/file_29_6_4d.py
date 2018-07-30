@@ -7,4 +7,4 @@ for c in " ,.?":
     message_clean = message_clean.replace(c, "")
 
 if message_clean == message_clean[::-1]:
-    print(message_clean, "이 메시지는 회문입니다.")
+    print("이 메시지는 회문입니다.")

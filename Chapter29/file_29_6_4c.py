@@ -9,6 +9,7 @@ middle_pos = (len(message_clean) - 1) // 2
 
 palindrome = True
 i = 0
+
 while i <= middle_pos and palindrome == True:
     if message_clean[i] != message_clean[-i - 1]:
         palindrome = False

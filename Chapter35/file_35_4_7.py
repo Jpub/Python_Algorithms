@@ -9,8 +9,8 @@ for i in range(TEAMS):
     t[i] = input(str(i + 1) + "번째 팀의 이름을 입력하여라: ")
     for j in range(PLAYERS):
         p[i][j] = input(str(j + 1) + "번째 선수의 이름을 입력하여라: ")
-        g[i][j] = int(input(str(j + 1) + \
-                "번째 선수의 득점수를 입력하여라: "))
+        g[i][j] = int(input(str(j + 1) + "번째 선수의 득점수를 입력하여라: "))
+        
 # 리스트 g를 정렬한다.
 for i in range(TEAMS):
     m = 0

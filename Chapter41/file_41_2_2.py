@@ -23,4 +23,4 @@ my_sort(names)          # 이름을 오름차순으로 정렬
 display_list(names)     # 정렬된 이름 출력
  
 my_sort(names, False)   # 이름을 내람차순으로 정렬
-display_list(names)     # 정렬된 이름 출력   
+display_list(names)     # 정렬된 이름 출력

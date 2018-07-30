@@ -19,7 +19,7 @@ while name.upper() != "STOP":
 
     name = input("행성 이름을 입력하여라: ")
 
-if maximum != --274:
+if maximum != -274:
     print("가장 뜨거운 행성:", m_name)
 else:
     print("아무런 값도 입력하지 않았음!")

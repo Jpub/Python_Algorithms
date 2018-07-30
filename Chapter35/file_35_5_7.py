@@ -1,13 +1,13 @@
 ROWS = 20
 COLUMNS = 30
 
-haystack = [[None] * COLUMNS for i in range(ROWS)]
+haystack = [ [None] * COLUMNS for i in range(ROWS) ]
 
 for i in range(ROWS):
     for j in range(COLUMNS):
         haystack[i][j] = float(input())
 
-needle = float(input("찾고자 하는 값을 입력하여라: "))
+needle = float(input("검색 값을 입력하여라: "))
 
 count = 0
 for j in range(COLUMNS):
@@ -16,6 +16,7 @@ for j in range(COLUMNS):
         if haystack[i][j] == needle:
             found = True
             break
+            
     if found == True:
         count += 1
     else:

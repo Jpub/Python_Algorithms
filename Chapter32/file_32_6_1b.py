@@ -1,5 +1,5 @@
 N = 10
-a = [[None]*N for i in range(N)]
+a = [[None] * N for i in range(N)]
 
 for i in range(N):
     for j in range(N):

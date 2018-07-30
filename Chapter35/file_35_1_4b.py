@@ -18,8 +18,8 @@ for i in range(ROWS_OF_B):
 new_arr = []
 for row in a:
     new_arr.append(row)
-    for row in b:
-        new_arr.append(row)
+for row in b:
+    new_arr.append(row)
 
 # 리스트 new_arr를 출력한다.
 for row in new_arr:

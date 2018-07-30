@@ -9,5 +9,6 @@ for i in range(ROWS):
         a[i][j] = float(input())
 
 for i in range(ROWS):
-    if a[i][j] != int(a[i][j]):
-        print(i, ",", j, "위치에서 실수가 발견되었습니다.")
+    for j in range(COLUMNS):
+        if a[i][j] != int(a[i][j]):
+            print(i, ",", j, "위치에서 실수가 발견되었습니다.")

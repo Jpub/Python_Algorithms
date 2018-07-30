@@ -1,8 +1,8 @@
-amount = float(input("주문 금액을 입력하여라: "))
+amount = float(input("주문액을 입력하여라: "))
 
 if amount < 30000:
     discount = 0
-elif amount >=30000 and amount < 70000:
+elif amount >= 30000 and amount < 70000:
     discount = 5
 elif amount >= 70000 and amount < 150000:
     discount = 10

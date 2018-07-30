@@ -1,7 +1,7 @@
 import re
 
 IS_NUMERIC = "^[-+]?\\d+(\\.\\d+)?$"
-ELEMENTS = 5
+ELEMENTS = 20
 odds = [None] * ELEMENTS
 for i in range(ELEMENTS):
     while True:

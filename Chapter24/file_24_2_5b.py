@@ -3,6 +3,7 @@ n = int(input())
 p = 1
 
 i = 1
+
 while True:
     a = float(input())
     p = p * a

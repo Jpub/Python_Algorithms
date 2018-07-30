@@ -25,6 +25,6 @@ for i in range(middle_pos + 1):
         palindrome = False
     j -= 1
 
-# 변수 palindrome이 여전히 True 이면
+# 변수 palindrome이 여전히 True이면
 if palindrome == True:
     print("이 메시지는 회문입니다.")

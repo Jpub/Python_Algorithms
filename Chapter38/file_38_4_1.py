@@ -3,7 +3,7 @@ def display_abs(n):
         n = (-1) * n
     print(n)
 
-# 메인 코드가 여기서 시작된다.
+# 메인 코드
 a = float(input())
 display_abs(a)      #입력값에 대한 절댓값을 출력한다.
 print(a)            #입력값을 출력한다.

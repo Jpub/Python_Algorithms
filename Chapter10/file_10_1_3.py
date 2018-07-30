@@ -1,5 +1,5 @@
-miles_driven = float(input("주행한 총 마일을 입력하시오: "))
-gallons = float(input("소비된 갤런 값을 입력하시오: "))
+miles_driven = float(input("주행한 총 마일을 입력하여라: "))
+gallons = float(input("소비된 갤런 값을 입력하여라: "))
 
 mpg = miles_driven / gallons
 

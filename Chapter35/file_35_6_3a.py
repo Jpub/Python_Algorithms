@@ -2,13 +2,12 @@ CITIES = 10
 DAYS = 31
 
 names = [None] * CITIES
-t = [[None] * DAYS for i in range(CITIES)]
+t = [ [None] * DAYS for i in range(CITIES) ]
 
 for i in range(CITIES):
     names[i] = input(str(i + 1) + "번째 도시의 이름을 입력하여라: ")
     for j in range(DAYS):
-        t[i][j] = int(input(str(j + 1) + \
-        "번째 날짜의 온도를 입력하여라: "))
+        t[i][j] = int(input(str(j + 1) + "번째 날짜의 온도를 입력하여라: "))
 
 count = [None] * CITIES
 

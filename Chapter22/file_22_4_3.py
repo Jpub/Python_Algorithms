@@ -1,7 +1,6 @@
 print("소포의 무게와 목적지를 입력하여라: ")
 weight = float(input())
 dest = input()
-
 if dest.upper() == "I":
     if weight <= 1:
         cost = weight * 1000

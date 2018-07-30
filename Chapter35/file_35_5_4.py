@@ -9,7 +9,7 @@ for i in range(PEOPLE):
     first_names[i] = input("영문 이름을 입력하여라: ")
     last_names[i] = input("영문 성을 입력하여라: ")
 
-needle = input("찾고자 하는 사회보장번호(SSN)를 입력하여라: ")
+needle = input("검색할 사회보장번호(SSN)를 입력하여라: ")
 
 i = 0
 while i < PEOPLE - 1 and SSNs[i] != needle:

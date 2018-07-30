@@ -14,6 +14,7 @@ b = [ [None] * COLUMNS for i in range(ROWS_OF_B) ]
 for i in range(ROWS_OF_B):
     for j in range(COLUMNS):
         b[i][j] = float(input())
+        
 # 리스트 new_arr를 저장한다.
 new_arr = [ [None] * COLUMNS for i in range(ROWS_OF_NEW) ]
 for i in range(ROWS_OF_A):

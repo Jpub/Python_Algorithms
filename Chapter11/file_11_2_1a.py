@@ -12,5 +12,4 @@ x_temp = (x1 - x2) ** 2
 y_temp = (y1 - y2) ** 2
 
 d = math.sqrt(x_temp + y_temp)
-
 print("두 점 사이의 거리:", d)

@@ -5,7 +5,7 @@ def display_menu():
     print("----------------------------")
     print("선택하여라: ", end = "")
 
-# 메인 코드가 여기서 시작된다.
+# 메인 코드
 while True:
     display_menu()
     choice = int(input())

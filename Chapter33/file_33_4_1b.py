@@ -8,7 +8,7 @@ for j in range(STUDENTS):
     names[j] = input(str(j + 1) + "번째 학생의 이름을 입력하여라: ")
     for i in range(LESSONS):
         grades[i][j] = int(input(str(names[j]) + " 학생의 " + \
-        str(i + 1) + "번째 과목 점수를 입력하여라: "))
+                        str(i + 1) + "번째 과목 점수를 입력하여라: "))
 
 # count 리스트 생성
 count = [None] * STUDENTS

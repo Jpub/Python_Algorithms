@@ -15,4 +15,4 @@ elif day == 6:
 elif day == 7:
     print("토요일")
 else:
-    print("부적절한 숫자(입니다.)")
+    print("부적절한 숫자")

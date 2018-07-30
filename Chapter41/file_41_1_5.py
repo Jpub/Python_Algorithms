@@ -23,7 +23,7 @@ for i in range(ELEMENTS):
 n = [None] * 6
 for i in range(6):
     n[i] = search_and_count(i + 1, a)
-    print("Value", (i + 1), "appears", n[i], "times")
+    print((i + 1), "이(가)", n[i], "번 나왔습니다.")
 
 # 리스트 n에서 최댓값 찾기
 maximum = n[0]

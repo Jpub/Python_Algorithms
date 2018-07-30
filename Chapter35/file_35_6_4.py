@@ -8,8 +8,7 @@ grades = [ [None] * LESSONS for i in range(STUDENTS) ]
 for i in range(STUDENTS):
     names[i] = input(str(i + 1) + "번째 학생의 이름을 입력하여라: ")
     for j in range(LESSONS):
-        grades[i][j] = int(input(str(j + 1) + \
-        "번째 과목의 성적을 입력하여라: "))
+        grades[i][j] = int(input(str(j + 1) + "번째 과목의 성적을 입력하여라: "))
 
 # 리스트 average를 생성한다.
 average = [None] * STUDENTS

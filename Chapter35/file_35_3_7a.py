@@ -1,7 +1,7 @@
 ROWS = 30
 COLUMNS = 20
 
-a = [[None] * COLUMNS for i in range(ROWS)]
+a = [ [None] * COLUMNS for i in range(ROWS) ]
 
 for i in range(ROWS):
     for j in range(COLUMNS):
